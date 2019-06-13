@@ -1,1 +1,1 @@
-Before running the code, run start_up first to add all files into the search path
+Before running the code, run startup first to add all files into the search path.  Normally, startup will be run automatically by matlab. So, it should be fine. 
