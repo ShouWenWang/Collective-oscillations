@@ -8,7 +8,7 @@ This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, 
 
    a) **glycolysis_dupreez2 _unperturb_19_6_7**:  the original dupreez2 model, no perturbation is done here
    
-   b) **glycolysis_dupreez2 _perturbed_19_6_7**:  the modified dupreeze2 model.  Response of the system to stepwise or periodic change of ACE       is computed and a phase diagram of the whole system is generated. In particular, it includes the following two models
+   b) **glycolysis_dupreez2 _perturbed_19_6_7**:  the modified dupreeze2 model.  Response of the system to stepwise or periodic change of ACE is computed and a phase diagram of the whole system is generated. In particular, it includes the following two models
       
          i) glycolysisACE: perturbation of the original model by changing the ACE level
       
@@ -22,7 +22,7 @@ This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, 
       
          ii) intracellular circuit + ACE diffusion to allow cell-to-cell communication, assuming fast signal diffusion
       
-         iii) intracellular circuit + ACE diffusion to allow cell-to-cell communication, explicitly treat signal inside and outside the cell,            with the diffusion speed controlled by the diffusion constant
+         iii) intracellular circuit + ACE diffusion to allow cell-to-cell communication, explicitly treat signal inside and outside the cell, with the diffusion speed controlled by the diffusion constant
   
 2) **collective oscillations**: matlab-based code for all other models and calculations in this manuscript
 
@@ -30,9 +30,9 @@ This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, 
 
    b) **adaptation**: related to the adaptive circuit illustrated in the main text
    
-       i) Main_fre_amp_prediction_comparison_adaptation: numerically compute the oscillation amplitude and frequency from a given adaptive          model and compare it to the prediction based from the analytic approximation of the adaptive spectrum
+       i) Main_fre_amp_prediction_comparison_adaptation: numerically compute the oscillation amplitude and frequency from a given adaptive model and compare it to the prediction based from the analytic approximation of the adaptive spectrum
    
-       ii) main_predicting_epsilon_tau_star: compute the relationship between the adaptation error epsilon and the minimum signal timescale          tau that is needed to induce collective oscillations (whatever the cell density is needed)
+       ii) main_predicting_epsilon_tau_star: compute the relationship between the adaptation error epsilon and the minimum signal timescale tau that is needed to induce collective oscillations (whatever the cell density is needed)
       
        iii) paper_fig_plot_adaptation_oscillation: explore various functions, compute the numerically exact response spectrum etc.
        
@@ -40,7 +40,7 @@ This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, 
        
    c) **FitzHugh-Nagumo Model**
    
-       i) Main_fre_amp_prediction_comparison: compute the amplitude and frequency of the collective oscillations, and compare it to that            predicted from the numerically computed response spectrum
+       i) Main_fre_amp_prediction_comparison: compute the amplitude and frequency of the collective oscillations, and compare it to that predicted from the numerically computed response spectrum
          
        ii) paper_fig_plot_FNH_oscillation: explore various functions, compute the numerically exact response spectrum etc.
        
