@@ -4,7 +4,7 @@ This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, 
 
 
 ## Structure:
-1) **Final model for glycolsyis**: mathematica code for glycolysis related models;				
+1) **Final model for glycolsyis**: mathematica-based code for glycolysis related models;				
 
    a) **glycolysis_dupreez2 _unperturb_19_6_7**:  the original dupreez2 model, no perturbation is done here
    
@@ -24,7 +24,7 @@ This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, 
       
          iii) intracellular circuit + ACE diffusion to allow cell-to-cell communication, explicitly treat signal inside and outside the cell,            with the diffusion speed controlled by the diffusion constant
   
-2) **collective oscillations**: matlab based code for all other models and calculations in this manuscript
+2) **collective oscillations**: matlab-based code for all other models and calculations in this manuscript
 
 	a) **startup**: a script that add the files to the searching path of matlab
 
