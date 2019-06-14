@@ -3,7 +3,7 @@
 This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, Emergence of collective oscillations in adaptive cells, https://arxiv.org/abs/1809.06997
 
 
-## Structure:
+## Structure
 1) **Final model for glycolsyis**: mathematica-based code for glycolysis related models;				
 
    a) **glycolysis_dupreez2 _unperturb_19_6_7**:  the original dupreez2 model, no perturbation is done here
