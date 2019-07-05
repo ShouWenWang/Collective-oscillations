@@ -1,10 +1,10 @@
 # Collective-oscillations
 
-This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, Emergence of collective oscillations in adaptive cells, https://arxiv.org/abs/1809.06997
+This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, Emergence of collective oscillations in adaptive cells, https://arxiv.org/abs/1809.06997.   The code has been tested successfully on MacOS 10.14.4.
 
 
 ## Structure
-1) **Final model for glycolsyis**: mathematica-based code for glycolysis related models;				
+1) **Final model for glycolsyis**: mathematica-based code for glycolysis related models;  The code has been tested successfully on Mathematica 10.4.1.0.				
 
    a) **glycolysis_dupreez2 _unperturb_19_6_7**:  the original dupreez2 model, no perturbation is done here
    
@@ -24,7 +24,7 @@ This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, 
       
          iii) intracellular circuit + ACE diffusion to allow cell-to-cell communication, explicitly treat signal inside and outside the cell, with the diffusion speed controlled by the diffusion constant
   
-2) **collective oscillations**: matlab-based code for all other models and calculations in this manuscript
+2) **collective oscillations**: matlab-based code for all other models and calculations in this manuscript. The code has been tested successfully on Matlab R2018a.			
 
 	a) **startup**: a script that add the files to the searching path of matlab
 
