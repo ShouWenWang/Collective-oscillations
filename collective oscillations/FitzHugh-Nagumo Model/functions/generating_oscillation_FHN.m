@@ -46,8 +46,9 @@ aver_x=zeros(L,1);
 for j=2:L
     
     aver_x(j-1)=sum(x(j-1,:))/N;
-    h(j)=h(j-1)+N*beta_2*dt+N*alpha_1*(aver_x(j-1)-station_activity)*dt-(wh+N*beta_0)*h(j-1)*dt-h(j-1)^3*dt;%+noise_h(j-1);%-h(j-1)^3*dt; %noise cannot be added, otherwise negative signal emerges, bad for log
-    
+%    h(j)=h(j-1)+N*beta_2*dt+N*alpha_1*(aver_x(j-1)-station_activity)*dt-(wh+N*beta_0)*h(j-1)*dt-h(j-1)^3*dt;%+noise_h(j-1);%-h(j-1)^3*dt; %noise cannot be added, otherwise negative signal emerges, bad for log
+     h(j)=h(j-1)+N*beta_2*dt+N*alpha_1*(aver_x(j-1)-station_activity)*dt-(wh+N*beta_0)*h(j-1)*dt; %% linear signal
+      
     x(j,:)=x(j-1,:)+(x(j-1,:)-(x(j-1,:)).^3/3)*dt-y(j-1,:)*dt+noise_x(j-1,:)+alpha_2*h(j-1)*dt;
     y(j,:)=y(j-1,:)+wy.*(x(j-1,:)-epsilon.*y(j-1,:)+a0)*dt+noise_y(j-1,:);
 end
