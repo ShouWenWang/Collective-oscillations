@@ -1,5 +1,4 @@
 # Collective-oscillations
-[This is a side branch]
 
 This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, Emergence of collective oscillations in adaptive cells, https://arxiv.org/abs/1809.06997.   The code has been tested successfully on MacOS 10.14.4.
 
