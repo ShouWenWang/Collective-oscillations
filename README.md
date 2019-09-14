@@ -39,7 +39,9 @@ This is the distributed code for the manuscript:  Shou-Wen Wang & Lei-Han Tang, 
        iV) functions: includes all sorts functions
        
    c) **FitzHugh-Nagumo Model**: use the main function there to compute Fig. 4 and Fig. 6
+   
    d) **glycolysis**: It is a matlab implementation of the mathematica vdersion "inimum_Model_glycolysis_19_6_7". Use the main functions there to compute Fig.S13-15        
+   
    e) **My_Common_Function** and **functions**: common functions for plot setting, and computation of the response spectrum or correlation spectrum etc. 
      
    
