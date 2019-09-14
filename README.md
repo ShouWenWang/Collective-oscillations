@@ -30,7 +30,7 @@ The code has been tested successfully on MacOS 10.14.4.
   
 2) **Matlab_code_for_collective_oscillations**: matlab-based code for all other models and calculations in this manuscript. The code has been tested successfully on Matlab R2018a.			
 
-   a) **startup**: a script that add the files to the searching path of matlab. **Run this file first before using other codes in this folder.** 
+   a) **startup**: a script that add the files to the searching path of matlab. *Run this file first before using other codes in this folder.* 
 
    b) **adaptation**: to compute Fig. 3 and related Supplemental Figures.
    
