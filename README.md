@@ -53,4 +53,3 @@ The code has been tested successfully on MacOS 10.14.4.
    e) **My_Common_Function** and **functions**: common functions for plot setting, and computation of the response spectrum or correlation spectrum etc. 
      
    
-Some Markdown text with <span style="color:blue">some *blue* text</span>.
